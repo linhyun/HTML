@@ -1,0 +1,62 @@
+
+
+#bag{width: 100%;background: #fff;border-top: 1px solid #f2f2f2;display: block;}
+#bag .trade{height:139px;background: #fff;}
+#bag .trade h3{height: 27px;font: 20px/27px "";color:#4a4a4a;padding-top: 58px;}
+
+
+#bag .empty{height:458px;background: #fff;display:none;}
+#bag .empty .not img{width: 100px;height:103px;margin-top: 119px;margin-left: 525px;}
+#bag .empty .not p{margin-top:48px;margin-left: 463px;height:15px;font-size: 12px;padding-top: 5px;color:#000;}
+#bag .empty .not a{color: #b93a2c;}
+
+
+#bag .adsum{width:1150px;background: #efaaaa;display:block;}
+#bag .adsum li{width:1150px;height:131px;background:#d8e9a4;border-bottom:1px solid #ececec;float:left;}
+
+#bag .adsum .first{height:42px;width:1150px;background: #f8f8f8;border-bottom:0px;float: left;}
+#bag .adsum .first img{height:25px;width:87px;margin: 10px 0 0 10px;float: left;}
+#bag .adsum .first a{float: right;color:#b93a2c;font:12px/20px "";height:20px;margin:12px;margin-right: 8px;}
+#bag .adsum .first a img{width:13px;height:13px;float:right;margin-top:5px;margin-right:21px;}
+
+#bag .adsum .last{height:50px;width:1150px;background:#f8f8f8;border-bottom:0px;float:left;position:relative;}
+#bag .adsum .last .img1{display:block;position:absolute;left:20px;top:18px;bottom: 16px;height:16px;width:16px;}
+#bag .adsum .last .img2{display:none;position:absolute;left:20px;top:18px;bottom: 16px;height:16px;width:16px;}
+#bag .adsum .last label{font-size:12px/20px "";height:20px;color:#828282;position:absolute;left:46px;top:16px;}
+#bag .adsum .last dl{position:relative;}
+#bag .adsum .last dl dt{position:absolute;right:220px;}
+#bag .adsum .last dl dt p{margin-top:17px;font:12px/22px "";height:20px;color:#828282;}
+#bag .adsum .last dl dt p span{margin-top:-3px;font:14px/24px "";height:24px;color:#d23a2c;}
+#bag .adsum .last dl dd{position:absolute;right:0px;top:0px;height:50px;width:180px;background:#bebdbb;}
+#bag .adsum .last dl dd a{height:24px;color:#fff;font:18px/24px "";left:63px;top:13px;position:absolute;}
+
+
+
+
+
+
+#recommend{width: 100%;height:620px;background: #fff;}
+#recommend .wrap{width:1150px;height:620px;overflow:hidden;position:relative;}
+#recommend .find{height:120px;background:#fff}
+#recommend .find h3{height: 24px;font:19px/21px "";color:#4a4a4a;padding-top:60px;}
+#recommend .mend{width:2320px;height:323px;background:#fff;position:absolute;}
+#recommend .arrow{display:none;line-height:58px;text-align:center;font-weight:bold;width:32px;height:58px;position:absolute;z-index:2;top:200px;background-color:RGBA(0,0,0,.3);color:#fff;}
+#prev { left: 20px;}
+#next { right: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>cart</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<script type="text/javascript" src = "js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src = "js/ajax.js"></script>
+		<script type="text/javascript" src = "js/demo.js"></script>	
+		<script type="text/javascript" src = "js/mend.js"></script>
+	</head>
+	<body>
+<!--==========================header=================================-->
+	<div id = "header">
+			<div class = "wrap">
+				<a href = "index.html">
+					<img class = "logo" src = "img/logo.png"/>
+				</a>
+				<ul class = "head01">
+					<li>
+						<div class = "search">
+							<input class = "txt" type = "text" placeholder = "搜索" />
+							<input class = "btn" type = "button" value = "搜索" />
+						</div>
+						<div class = "seek"></div>
+					</li>
+					<li class = "a1">
+						<a class = "app" href = "index.html"><img src = "img/app.gif" title = "下载app"/></a>
+						<div class = "d1">
+							<img src = "img/app_code.png" />
+						</div>
+					</li>
+					<li>
+						<a class = "bag" href = "html/cart.html"><img src = "img/bag.gif" title = "购物袋"/></a>
+					</li>
+					<li>
+						<a class = "personal" href = "enter.html"><img src = "img/personal.gif" title = "个人中心"/></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+<!--==========================nav=================================-->
+	<div id = "nav">
+			<div class = "wrap">
+				<div class = "left">
+					<ul class = "nav_ul">
+						<li>
+							<a href = "index.html" class = "li_1">首页</a>
+						</li>
+						<li>
+							<a href = "http://www.ujipin.com/tag/new" class = "li_2">新品</a>
+						</li>
+
+						<li class = "a3">
+							<a href = "http://www.ujipin.com/tag/8e630bd16b16438e82089e5dc8e9ebba" class = "li_3">美味餐厨</a>
+							<div class = "li_31">
+								<!-- <div class="wrap"></div> -->
+							</div>
+						</li>
+
+						<li class = "a4">
+							<a href = "http://www.ujipin.com/tag/cf845e092ec14640a904fa73d3c7eac9" class = "li_4">家纺家饰</a>
+							<div class = "li_41">
+								<!-- <div class="wrap"></div> -->
+							</div>
+						</li>
+
+						<li class = "a5">
+							<a href = "http://www.ujipin.com/tag/6553dd8fa8044db58a35ee25874d5e5c" class = "li_5">生活日用</a>
+							<div class = "li_51">
+								<!-- <div class="wrap"></div> -->
+							</div>
+						</li>
+
+						<li class = "a6">
+							<a href = "http://www.ujipin.com/tag/c499966af7ac48fe9fdafbc5abda7d7d" class = "li_6">健康美体</a>
+							<div class = "li_61">
+								<!-- <div class="wrap"></div> -->
+							</div>
+						</li>
+
+						<li class = "a7">
+							<a href = "http://www.ujipin.com/tag/18e6c0aff8ed4a089513b677b2a642e7" class = "li_7">文具数码</a>
+							<div class = "li_71">
+								<!-- <div class="wrap"></div> -->
+							</div>
+						</li>
+
+
+						<li>
+							<a href = "http://www.ujipin.com/tag/brand" class = "li_8">品牌</a>
+						</li>
+					</ul>
+				</div>
+				<div class = "right">
+					<a href = "#">联系客服</a>
+				</div>
+			</div>
+		</div>
+<!--=========================bag=================================-->
+	<div id = "bag">
+		<div class = "wrap">
+			<div class="trade">
+				<h3>购物袋</h3>
+			</div>
+			<ul class = "empty">
+				<li class = "not">
+					<img src="img/shopping_bag-noth.png" alt="">
+					<p>您的购物车里暂无商品，<a href="#">赶紧逛逛→</a></p>
+				</li>
+			</ul>
+			<ul class = "adsum">
+				<li class = "first">
+					<img src = "img/logo.gif"/>
+					<a href ="#">去凑单<img src = "img/Page1.png"/></a>
+				</li>
+				<li>
+					<img class = "img1" src = "img/checkAll.png" />
+					<img class = "img2" src = "img/checkbox2.png"/>
+					<dl>
+						<img src = "" />
+						<dt>
+							
+						</dt>
+						<dd>
+							
+						</dd>
+					</dl>
+				</li>
+				<li class = "last">
+					<img class = "img1" src = "img/checkAll.png" />
+					<img class = "img2" src = "img/checkbox2.png"/>
+					<label for="selectAll">全选</label>
+					<dl>
+			            <dt><p>总计：<span id="totle">¥395.00</span></p></dt>
+			            <dd><a href="#">去结算</a></dd>
+					</dl>
+				</li>
+			</ul>
+		</div>
+	</div>
+<!--=========================bag=================================-->
+	<div id = "recommend">
+		<div class = "wrap">
+			<div class="find">
+				<h3>热门推荐</h3>
+			</div>
+			<ul class = "mend">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<a href = "javascript:;" id="prev" class="arrow"><img class = "left" src = "img/btn_left.png" /></a>
+			<a href = "javascript:;" id="next" class="arrow"><img class = "right" src = "img/btn_right.png" /></a>
+		</div>
+	</div>
+<!--==========================footer=================================-->
+	<div id = "footer">
+		<div class = "wrap">
+			<ul class = "top">
+				<li class = "first"><a href = "www.ujipin.com/aboutus"><img src = "img/guanyu.gif" /><span>关于优集品</span></a></li>
+				<li><a href = "http://www.ujipin.com/aboutus/bill"><img src = "img/zhinan.gif" /><span>购物指南</span></a></li>
+				<li><a href = "http://www.ujipin.com/aboutus/problem"><img src = "img/wenti.gif" /><span>常见问题</span></a></li>
+			</ul>
+			<ul class = "bottom">
+				<li><span class = "first">客服电话 4000-788-738</span>|<span>优集品&copy; 2011-2016</span>|<span>北京优集品网络科技有限公司</span>|<span>京ICP备11028595号</span>|<span>京公网安备110105011117</span></li>
+				<li class = "last">
+					<span>关注优集品</span>
+					<img class = "oImg" src = "img/weixin.gif" />
+					<div class = "d1">
+						<img src = "img/app_code.png" />
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</body>
+</html>
